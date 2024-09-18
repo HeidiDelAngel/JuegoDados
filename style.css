@@ -13,6 +13,7 @@ body {
 .dado {
     width: 200px;
     height: 200px;
+    gap: 100px;
 }
 #resultado {
     margin-top: 20px;
