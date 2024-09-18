@@ -35,7 +35,7 @@ button {
 
 #reiniciar-btn {
     display: none;
-    margin-top: 20px;
+    margin-top: 200px;
 }
 
 @media (max-width: 768px) {
