@@ -27,7 +27,7 @@ button {
     background-color: aquamarine;
     color: red;
     border-radius: 10px;
-    margin-top: 20px; /* Adjust margin for smaller screens */
+    margin-top: 100px; /* Adjust margin for smaller screens */
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
