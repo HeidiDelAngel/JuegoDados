@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(33, 45, 45);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+.dado-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.dado {
+    width: 200px;
+    height: 200px;
+}
+#resultado {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+button {
+    background-color: aquamarine;
+    color: red;
+    border-radius: 10px;
+    margin-top: 150px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#reiniciar-btn {
+    display: none;
+    margin-top: 150px;
+}

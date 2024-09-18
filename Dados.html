@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de Dados</title>
+</head>
+<body>
+    <h1 style="color: aquamarine; font-size: 50px;">Juego de Dados</h1>
+
+    <div id="resultado" style="color: aquamarine; font-size: 70px;"></div>
+    
+    <div class="dado-container">
+        <div class="dado">
+            <p style="color: aquamarine; font-size: 30px;">Jugador 1</p>
+            <img id="jugador1-dado" class="dado" src="imagenes/dado1.png" alt="Dado Jugador 1">
+        </div>
+    
+        <div class="dado">
+            <p style="color: aquamarine; font-size: 30px;">Jugador 2</p>
+            <img id="jugador2-dado" class="dado" src="imagenes/dado1.png" alt="Dado Jugador 2">
+        </div>
+    </div>
+    
+    <button id="lanzar-btn" onclick="lanzarDados()">Lanzar los Dados</button>
+
+    <button id="reiniciar-btn" onclick="reiniciarJuego()">Reiniciar Juego</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
