@@ -8,12 +8,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 0px;
+    gap: 100px;
 }
 .dado {
     width: 200px;
     height: 200px;
-    gap: 100px;
+    margin-left: 0px;
 }
 #resultado {
     margin-top: 20px;
